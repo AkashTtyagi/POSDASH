@@ -3,6 +3,7 @@ import "./Products.css"
 import RemoveRedEyeOutlinedIcon from '@material-ui/icons/RemoveRedEyeOutlined';
 import CreateOutlinedIcon from '@material-ui/icons/CreateOutlined';
 import DeleteOutlineOutlinedIcon from '@material-ui/icons/DeleteOutlineOutlined';
+import AddRoundedIcon from '@material-ui/icons/AddRounded';
 function Products() {
 
     const tableHeader = [
@@ -94,18 +95,18 @@ function Products() {
             <div className="productsDetails">
                 <div className="productsList">
                     <div className="productListLeft">
-                        <ul>
+                        <ul id="productListLeftUl">
                             <li>Product List</li>
                             <li>The product list effectively dictates product presentation and provides space</li>
                             <li>to list your products and offering in the most appealing way.</li>
                         </ul>
                     </div>
-                    <div className="addProductsButton">
-                      <a>Add Products</a>
+
+                    <div className="addProductsButton btn btn-primary">
+                      <a><AddRoundedIcon />Add Products</a>
                     </div>
                 </div>
                 <div className="">
-                    555555
                 </div>
             </div>
 

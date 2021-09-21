@@ -86,6 +86,12 @@ tr
 {
     display: flex;
     flex-direction: column;
+    margin: 20px 20px 0px 20px;
+}
+
+#productListLeftUl {
+    margin: 0%;
+    padding: 0%;
 }
 
 .productsList 
@@ -96,3 +102,67 @@ tr
     align-items: center;
 }
 
+.productListLeft li:nth-child(1)
+{
+    font-family: "Lato",sans-serif;
+    font-weight: 600;
+    margin: 0px;
+    line-height: 1;
+    color: #110A57;
+    font-size: 1.44em;
+    margin-bottom: 1rem!important;
+}
+
+.productListLeft li:nth-child(2) 
+{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: rgb(133, 127, 127);
+}
+
+.productListLeft li:nth-child(3) 
+{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: rgb(133, 127, 127);
+}
+
+.addProductsButton
+{
+    color: #fff;
+    background-color: #32BDEA;
+    border-color: #32BDEA;
+    box-shadow: unset;
+    padding: 0.5rem 1rem;  
+    
+}
+
+
+.btn-primary:hover 
+{
+    color: #fff;
+    background-color: #17aedf;
+    border-color: #16a5d3;
+}
+
+.btn 
+{
+    display: inline-block;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.addProductsButton a
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
