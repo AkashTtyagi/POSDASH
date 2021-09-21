@@ -1,0 +1,56 @@
+.sideBarParent {
+    display: flex;
+    justify-content: flex-start;
+    width: 17%;
+    height: 100vh;
+    box-shadow: 0px 0px 5px 1px rgb(207, 195, 195);
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    transition: 5.6s ease;
+}
+
+.sideBarParentCloseOpen {
+    left: -200px;
+}
+
+.sideBarHearder {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px 20px 0px !important; 
+}
+
+.downArrowHeader {
+    margin-left: 5px;
+    color: rgb(104, 104, 219);
+    font-size: 20px;
+}
+
+.upArrowHeader {
+    color: orange;
+    font-size: 20px;
+}
+
+.headingHeader {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.iconHeader{
+    margin-left: 70px;   /*need to change*/
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.mainList {
+    width:100%;
+    height:100%;
+    color:rgb(24, 22, 22);
+}
+
+.sideBarHearder {
+    /* display: flex;
+    flex-direction: column; */
+    padding: 10px;
+}
